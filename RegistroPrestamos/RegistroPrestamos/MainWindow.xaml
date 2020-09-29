@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroPrestamos"
         mc:Ignorable="d"
-        Title="Menu principal" Height="450" Width="700">
+        Title="Menú de Prestamos" Height="250" Width="350">
     <Grid>
         <Menu Height="20" VerticalAlignment="Top">
             <MenuItem Header="Registros">
@@ -17,8 +17,10 @@
             <MenuItem Header="Consultas">
                 <MenuItem x:Name="ConsultasPersonas" Header="Consultas Personas" Click="ConsultasPersonasButton_Click"></MenuItem>
                 <MenuItem x:Name="ConsultasPrestamos" Header="Consultas Prestamos" Click="ConsultasPrestamosButton_Click"></MenuItem>
-
+                
             </MenuItem>
+
+            <MenuItem Name="AyudaMenu" Header="Ayuda" Click="AyudaMenu_Click"/>
         </Menu>
     </Grid>
 </Window>

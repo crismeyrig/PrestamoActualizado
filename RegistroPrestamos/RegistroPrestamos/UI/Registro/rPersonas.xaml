@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroPrestamos.UI.Registro"
         mc:Ignorable="d"
-        Title=" Registro de Personas" Height="450" Width="450">
+        Title=" Registro de Personas" Height="350" Width="450">
     <Grid>
     <StackPanel Margin= "-120,110,-1,-1"  VerticalAlignment="Center" HorizontalAlignment="Center">
 
@@ -15,7 +15,7 @@
 
             
             <!--Boton Buscar-->
-            <Button x:Name ="BuscarButton" Margin="240,-225,0,0" Width = "100" Height = "40" Content="  Buscar" Click = "BuscarButton_Click"/>
+            <Button x:Name ="BuscarButton" Margin="240,-225,0,0" Width = "100" Height = "40" Content="       Buscar" Click = "BuscarButton_Click"/>
             <Image Source= "/Imagenes/buscar.png" Width="25" Height= "25" Margin="180,-225,0,0"/>
 
  

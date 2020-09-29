@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using RegistroPrestamos.BLL;
 using RegistroPrestamos.Entidades;
 
+
 namespace RegistroPrestamos.UI.Registro
 {
     public partial class rPersonas:Window
@@ -46,7 +47,8 @@ namespace RegistroPrestamos.UI.Registro
         {           
              var personas = PersonasBLL.Buscar(Utilidades.ToInt(PersonaIdTextBox.Text));
             if(persona != null)
-            {                   
+            {
+                
                 this.persona = personas; 
             }           
             else
@@ -89,4 +91,7 @@ namespace RegistroPrestamos.UI.Registro
                     MessageBox.Show("No fue posible eliminar", "Fallo",MessageBoxButton.OK, MessageBoxImage.Error);   
                 }       
              }
-    }   }
+         }
+    
+}   
+

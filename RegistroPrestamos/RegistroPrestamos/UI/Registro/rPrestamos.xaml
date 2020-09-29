@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroPrestamos.UI.Registro"
         mc:Ignorable="d"
-        Title="Prestamos" Height="450" Width="450">  
+        Title="Préstamos" Height="350" Width="450">  
     <Grid>
     <StackPanel Margin= "-120,110,-1,-1"  VerticalAlignment="Center" HorizontalAlignment="Center">
 
             <!--prestamosID-->
 
-            <Label Content = "PrestamoId" FontWeight="Bold" FontSize="15px" Margin="110,-125,1,1" FontFamily="SimSun-ExtB" FontStyle="Normal"/>
+            <Label Content = "PréstamoId" FontWeight="Bold" FontSize="15px" Margin="110,-125,1,1" FontFamily="SimSun-ExtB" FontStyle="Normal"/>
             <TextBox x:Name = "PrestamoIdTextBox" Text ="{Binding PrestamoId}" Width="50" Height="25" Margin="10,-225,0,0"/>
             
             <!--Boton Buscar-->
-            <Button x:Name ="BuscarButton" Margin="240,-225,0,0" Width = "100" Height = "40" Content="   Buscar" Click ="BuscarButton_Click"/>
+            <Button x:Name ="BuscarButton" Margin="240,-225,0,0" Width = "100" Height = "40" Content="           Buscar" Click ="BuscarButton_Click"/>
             <Image Source= "/Imagenes/buscar.png" Width="30" Height= "30" Margin="180,-225,0,0"/>
  
             <!--Fecha-->
@@ -24,7 +24,7 @@
  
             <!--PersonaId-->
             <Label Content = "PersonaId" FontWeight="Bold" FontSize="15px" Margin="110,-50,1,1" FontFamily="SimSun-ExtB" FontStyle="Normal"/>
-            <TextBox x:Name = "PersonaIdTextBox" Text ="{Binding PersonaId}" Width="190" Height="25" Margin="150,-60,0,0"/>
+            <TextBox x:Name = "PersonaIdTextBox" Text ="{Binding PersonaId}" IsEnabled="False" Width="190" Height="25" Margin="150,-60,0,0"/>
  
             <!--Concepto-->
             <Label Content = "Concepto" FontWeight="Bold" FontSize="15px" Margin="110,-10,1,1" FontFamily="SimSun-ExtB" FontStyle="Normal"/>
@@ -36,7 +36,7 @@
  
             <!--Balance-->
             <Label Content = "Balance" FontWeight="Bold" FontSize="13.5px" Margin="110,10,1,1" FontFamily="SimSun-ExtB" FontStyle="Normal"/>
-            <TextBox x:Name = "BalanceTextBox" Text ="{Binding Balance}" Width="190" Height="35" Margin="150,-30,0,0"/>
+            <TextBox x:Name = "BalanceTextBox" Text ="{Binding Balance}" IsEnabled="False" Width="190" Height="35" Margin="150,-30,0,0"/>
  
             <!-- Barra de Botones-->
             <Button x:Name ="NuevoButton" Margin="-120,20,0,0" Width = "100" Height = "40" Content="Nuevo" Click = "NuevoButton_Click"/>
