@@ -10,5 +10,17 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UI\Consulta\cPersonas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Consulta\cPrestamos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Registro\rPersonas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Registro\rPrestamos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>
